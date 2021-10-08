@@ -1,0 +1,58 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: rgb(37, 37, 37);
+    background-image: url("img/jacinto-diego-5kkRYf5oeuA-unsplash-removebg-preview.png");
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-position: bottom;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+main {
+    background-color: rgb(51, 51, 51);
+    height: 100vh;
+}
+
+section {
+    background-color: rgb(51, 51, 51);
+    height: 100vh;
+}
+
+aside {
+    background-color: rgb(37, 37, 37);
+    height: 100vh;
+}
+
+footer {
+    background-color: rgb(37, 37, 37);
+    height: 78vh;
+}
+
+@media (max-width: 1000px) {
+    header .jumbotron {
+        display: none;
+    }
+    section {
+        height: 160vh;
+    }
+    footer {
+        height: 110vh;
+    }
+}
+
+@media (max-width: 757px) {
+    main {
+        height: 250vh;
+    }
+    section {
+        height: 257vh;
+    }
+    footer {
+        height: 119vh;
+    }
+}
